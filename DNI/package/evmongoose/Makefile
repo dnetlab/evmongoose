@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Build/Prepare
     mkdir -p $(PKG_BUILD_DIR)
-	$(CP) $(GIT_HOME)/evmongoose/* $(PKG_BUILD_DIR)
+	$(CP) $(GIT_HOME)/evmongoose-2017-8-22/* $(PKG_BUILD_DIR)
 endef
 
 define Package/evmongoose
